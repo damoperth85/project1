@@ -1,0 +1,12 @@
+# This program will display what colour is a number on a roulette
+# we prompt the user to enter a number
+number = int(input('Enter a number: '))
+# we use the if-elif-else fonctions de determine which colour the number is
+if number == 0: 
+    print('This number is green')
+elif number == 1 or number == 3 or number == 5 or number == 7 or number == 9 or number == 12 or number == 14 or number == 16 or number == 18 or number == 19 or number == 21 or number == 23 or number == 25 or number == 27 or number == 30 or number == 32 or number == 34 or number == 36:
+    print('This number is red')
+elif number < 36:
+    print('This number is black')
+else:
+    print('This is not a valid number')
